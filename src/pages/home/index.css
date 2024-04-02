@@ -1,0 +1,99 @@
+BODY{
+
+background-color: #f23b3b;
+
+}
+
+.cabeça{
+
+
+display: flex;
+flex-direction:row ;
+background-color: #f23b3b;
+height: 50px;
+justify-content: space-around;
+align-items: center;
+}
+
+.cabeça :nth-child(1) {
+
+gap: 1px;
+font: 400 18px 'padaria';
+}
+
+
+
+.Consulta a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.cria{
+display: flex;
+background-color: #817b78;
+gap: 90px;
+flex-direction: row;
+}
+
+.card{
+margin-left:19px;
+margin-top: 30px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+width: 250px;
+background-color: #fff;
+border: 5px solid #000000;
+border-radius: 5px;
+gap: 20px;
+text-align: center;
+padding-bottom: 15px;
+box-shadow: -5px 1px 1px;
+box-shadow:-5px 2px 25px rgb(0, 0, 0);
+
+
+
+}
+
+.card img{
+
+width: 100%;
+
+
+}
+
+.card h1{
+
+font: 700 30px 'padaria';
+
+}
+
+.card p{
+    font-family:'Times New Roman', Times, serif
+
+
+}
+
+
+.ende{
+
+text-align: center;
+margin-top: 80px;
+line-height: 30px;
+
+
+}
+
+.ende h2{
+
+font: 700 20px 'padaria';
+line-height: 20px;
+
+}
+
+
+
+
+
